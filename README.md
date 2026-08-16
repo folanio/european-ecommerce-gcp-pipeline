@@ -1,7 +1,7 @@
 # End-to-End European E-Commerce Data Pipeline (GCP & Looker Studio)
 
 ## Project Overview
-This project simulates an enterprise-level data analyst workflow. I built an end-to-end data pipeline within Google Cloud Platform (GCP) to extract, transform, and visualize e-commerce transaction data specifically for the European market.
+This project simulates an enterprise-level data analyst workflow. I built an end-to-end data pipeline within Google Cloud Platform (GCP) to extract, transform, and visualise e-commerce transaction data specifically for the European market.
 
 ## Architecture
 * **Data Source:** Google BigQuery Public Datasets (`thelook_ecommerce`)
@@ -11,7 +11,7 @@ This project simulates an enterprise-level data analyst workflow. I built an end
 ## Key Technical Steps
 1. **Data Joining & Filtering:** Combined user demographics and order tracking tables using SQL `JOIN` constraints.
 2. **Geographical Targeting:** Filtered a massive global dataset down to 23,223 specific European orders (UK, France, Germany, Spain, Belgium, Austria).
-3. **Data Warehousing:** Optimized query execution layers by creating a dedicated analytics table within a local dataset workspace.
+3. **Data Warehousing:** Optimised query execution layers by creating a dedicated analytics table within a local dataset workspace.
 4. **Dashboard Engineering:** Built an interactive dashboard showcasing KPIs, demographic splits, and market rankings.
 
 ## Key Insights Discovered
