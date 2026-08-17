@@ -25,11 +25,11 @@ FROM user_orders u
 JOIN user_spending s ON u.user_id = s.user_id
 WHERE s.total_spent IS NOT NULL;
 
-
 -- STEP 2: Train the K-Means Clustering Machine Learning Model
+-- (FIXED: Explicit uppercase strings for option constraints)
 CREATE OR REPLACE MODEL `customer_segmentation_ml.customer_clusters`
 OPTIONS(
-  model_type='kmeans',
+  model_type='KMEANS',
   num_clusters=4,
   standardize_features=TRUE
 ) AS
@@ -38,7 +38,6 @@ SELECT
   frequency, 
   monetary
 FROM `customer_segmentation_ml.rfm_features`;
-
 
 -- STEP 3: Generate Final Predicted Segments Table
 CREATE OR REPLACE TABLE `customer_segmentation_ml.final_customer_segments` AS
