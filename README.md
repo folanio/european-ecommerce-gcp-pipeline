@@ -97,5 +97,5 @@ During initial testing cycles, the pipeline successfully identified hidden local
 ## 🛠️ Repository Structure
 * `gcp_ecommerce_query.sql` - Core SQL script for data transformation (Project 1)
 * `gcp_ml_segmentation.sql` - Advanced SQL script for RFM calculation and Machine Learning training (Project 2)
-* `gcp_market_automation.sql` - Advanced SQL script for RFM calculation and Machine Learning training (Project 3)
+* `gcp_market_automation.sql` - Automated Competitor Price Tracker & Market Intelligence Pipeline (Project 3)
 
